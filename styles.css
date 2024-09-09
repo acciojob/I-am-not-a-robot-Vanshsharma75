@@ -6,7 +6,30 @@
   content: url("https://picsum.photos/seed/picsum/200/300");
 }
 
-.img3 {
+.img3 {img {
+  margin: 10px;
+  border: 5px solid #555;
+  width: 10%;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.selected {
+  border: 5px solid rgb(0, 195, 255);
+}
+
+p {
+  text-align: center;
+}
+
+button {
+  margin: 20px;
+}
+
   content: url("https://picsum.photos/200/300?grayscale");
 }
 .img4 {
